@@ -40,5 +40,14 @@ gulp.task( "js", function() {
 } );
 
 // watch tasks
+gulp.task( "watch", function() {
+    gulp.watch( "src/images/**" ), [ "images" ];
+    gulp.watch( "src/sass/**/*.scss" ), [ "css" ];
+    gulp.watch( "src/pug/**/*.pug" ), [ "html" ];
+    gulp.watch( "src/js/**/*.js" ), [ "js" ];
+} );
 
 // aliases
+
+gulp.task( "default", ["images", "css", "html", "js" ] );
+gulp.task( "work", ["default", "watch" ] );
