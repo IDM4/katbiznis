@@ -4,12 +4,12 @@ Carrte de visite dans le cadre du cours de design web
 
 ***
 
-##Installation
+## Installation
 
 
 **TODO**
 
-##FONCTIONNEMENT
+## Fonctionnement
 
 **TODO**
 
